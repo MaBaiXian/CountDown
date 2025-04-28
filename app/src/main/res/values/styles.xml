@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogCustom" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowBackground">@drawable/dialog_rounded_bg</item>
+
+        <item name="android:textAppearanceMedium">@style/TextAppearance.DialogBody.Bold</item>
+    </style>
+
+    <style name="TextAppearance.DialogBody.Bold" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
+

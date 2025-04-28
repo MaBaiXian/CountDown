@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnMenu_description">侧滑菜单栏</string>
+    <string name="textTitle">MOMO - 墨韵考期</string>
+    <string name="btnAdd_description">添加考试按钮</string>
+    <string name="app_name">墨韵考期</string>
+    <string name="btnBack_description">返回按键\n</string>
+    <string name="btnSave_description">保存考试按钮</string>
+    <string name="textAddTitle">添加考试</string>
+    <string name="btn_edit_description">编辑考试</string>
+    <string name="select_date">考试日期</string>
+    <string name="select_time">考试时间</string>
+</resources>
