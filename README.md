@@ -44,7 +44,7 @@
 ```
 
 项目架构图如下所示：  
-![项目结构图](项目结构.png)
+![项目结构图](readme/项目结构.png)
 
 ### 2.2 数据库设计
 本系统使用 SQLite 作为数据库，主要用于存储考试信息。数据库设计如下：
@@ -93,7 +93,7 @@ DROP TABLE IF EXISTS exams;
 - **功能**：展示启动动画，提升用户体验。
 - **设计**：包含应用 Logo，动画结束后自动跳转到主界面。
 - **界面示例**：  
-  ![启动界面](SplashActivity界面.png)
+  ![启动界面](readme/SplashActivity界面.png)
 
 #### 2. 主界面（MainActivity）
 - **功能**：展示考试倒计时列表
@@ -102,9 +102,9 @@ DROP TABLE IF EXISTS exams;
   - 中部：RecyclerView 列表，按置顶状态和目标日期排序显示考试信息。
 - **界面示例**：  
   - 主界面：  
-    ![主界面](MainActivity_1界面.png)
+    ![主界面](readme/MainActivity_1界面.png)
   - 主界面侧边栏：  
-    ![主界面侧边栏](MainActivity_2界面.png)
+    ![主界面侧边栏](readme/MainActivity_2界面.png)
 
 #### 3. 添加考试界面（AddExamActivity）
 - **功能**：允许用户输入考试名称和目标日期，并保存到数据库。
@@ -112,7 +112,7 @@ DROP TABLE IF EXISTS exams;
   - 输入框：考试名称和日期时间选择器。
   - 按钮：保存操作，返回操作。
 - **界面示例**：  
-  ![添加界面](AddExamActivity界面.png)
+  ![添加界面](readme/AddExamActivity界面.png)
 
 #### 4. 考试详情界面（ExamDetailActivity）
 - **功能**：展示单个考试的详细信息，包括名称、目标日期和倒计时
@@ -120,7 +120,7 @@ DROP TABLE IF EXISTS exams;
   - 信息展示区域：考试名称和目标日期。
   - 操作按钮：编辑和删除考试。
 - **界面示例**：  
-  ![详细信息界面](ExamDetailActivity界面.png)
+  ![详细信息界面](readme/ExamDetailActivity界面.png)
 
 #### 5. 编辑考试界面（EditExamActivity）
 - **功能**：允许用户修改考试信息并保存更改。
@@ -128,7 +128,7 @@ DROP TABLE IF EXISTS exams;
   - 输入框：考试名称和日期选择器，预填充当前信息。
   - 按钮：保存和返回操作。
 - **界面示例**：  
-  ![修改界面](EditExamActivity界面.png)
+  ![修改界面](readme/EditExamActivity界面.png)
 
 ## 3. 实现过程
 ### 3.1 核心功能实现
@@ -208,27 +208,27 @@ private fun updateRemainingTimeUI() {
 
 ## 4. 功能演示
 1. 功能1：布局切换  
-![布局切换功能](布局切换功能.png)
-![线性布局](线性布局.png)
-![表格布局](表格布局.png)
+![布局切换功能](readme/布局切换功能.png)
+![线性布局](readme/线性布局.png)
+![表格布局](readme/表格布局.png)
 
 2. 功能2：动态显示倒计时  
-![动态倒计时](ExamDetailActivity界面.png)
+![动态倒计时](readme/ExamDetailActivity界面.png)
 
 3. 功能3：保存考试信息  
-![保存考试信息](AddExamActivity界面.png)
+![保存考试信息](readme/AddExamActivity界面.png)
 
 3. 功能3：修改考试信息  
-![修改考试信息](EditExamActivity界面.png)
+![修改考试信息](readme/EditExamActivity界面.png)
 
 4. 功能4：删除考试  
-![删除考试信息](删除考试.png)
+![删除考试信息](readme/删除考试.png)
 
 5. 功能4：日期选择  
-![日期选择](日期选择.png)
+![日期选择](readme/日期选择.png)
 
 6. 功能4：时间选择  
-![时间选择](时间选择.png)
+![时间选择](readme/时间选择.png)
 
 ## 参考资料
 [1] 郭霖. 第一行代码:Android开发实战经典(第3版)[M]. 北京:人民邮电出版社, 2019.   
